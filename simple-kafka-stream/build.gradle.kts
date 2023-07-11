@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
     implementation("org.apache.kafka:kafka-clients:$kafkaVersion")
+    implementation("org.apache.kafka:kafka-streams:$kafkaVersion")
     implementation("org.slf4j:slf4j-simple:$slf4jVersion")
 
     testImplementation(kotlin("test"))
