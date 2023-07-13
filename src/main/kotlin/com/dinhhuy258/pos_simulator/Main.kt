@@ -6,6 +6,7 @@ import com.dinhhuy258.simple_producer.KafkaConfig
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.common.serialization.StringSerializer
+import org.apache.logging.log4j.LogManager
 import java.util.*
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
@@ -26,6 +27,10 @@ private fun createKafkaProducer(): KafkaProducer<String, PosInvoice> {
 }
 
 fun main() {
+    val logger = LogManager.getLogger()
+
+    logger.info("Creating Kafka producer...")
+
     val kafkaProducer = createKafkaProducer()
     val executor = Executors.newFixedThreadPool(noOfProducers)
     val producers: MutableList<ProducerRunnable> = ArrayList()
