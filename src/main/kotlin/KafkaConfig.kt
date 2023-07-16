@@ -1,4 +1,4 @@
-package com.dinhhuy258.simple_producer
+package com.dinhhuy258
 
 class KafkaConfig {
     companion object {

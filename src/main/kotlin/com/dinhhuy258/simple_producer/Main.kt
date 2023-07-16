@@ -1,5 +1,6 @@
 package com.dinhhuy258.simple_producer
 
+import com.dinhhuy258.KafkaConfig
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.clients.producer.ProducerRecord

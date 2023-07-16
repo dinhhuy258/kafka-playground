@@ -1,11 +1,10 @@
-package com.dinhhuy258.simple_producer.com.dinhhuy258.pos_fanout
+package com.dinhhuy258.pos_fanout
 
-import com.dinhhuy258.pos_fanout.RecordBuilder
 import com.dinhhuy258.pos_fanout.RecordBuilder.getHadoopRecords
 import com.dinhhuy258.pos_fanout.RecordBuilder.getMaskedInvoice
 import com.dinhhuy258.pos_fanout.serde.AppSerdes
 import com.dinhhuy258.pos_fanout.types.PosInvoice
-import com.dinhhuy258.simple_producer.KafkaConfig
+import com.dinhhuy258.KafkaConfig
 import org.apache.kafka.common.serialization.Serdes
 import org.apache.kafka.streams.KafkaStreams
 import org.apache.kafka.streams.StreamsBuilder

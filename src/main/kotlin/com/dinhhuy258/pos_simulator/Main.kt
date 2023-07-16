@@ -1,8 +1,8 @@
-package com.dinhhuy258.simple_producer.com.dinhhuy258.pos_simulator
+package com.dinhhuy258.pos_simulator
 
 import com.dinhhuy258.pos_simulator.serde.JsonSerializer
 import com.dinhhuy258.pos_simulator.types.PosInvoice
-import com.dinhhuy258.simple_producer.KafkaConfig
+import com.dinhhuy258.KafkaConfig
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.common.serialization.StringSerializer

@@ -1,4 +1,4 @@
-package com.dinhhuy258.simple_producer.com.dinhhuy258.pos_simulator
+package com.dinhhuy258.pos_simulator
 
 import com.dinhhuy258.pos_simulator.datagenerator.InvoiceGenerator
 import com.dinhhuy258.pos_simulator.types.PosInvoice

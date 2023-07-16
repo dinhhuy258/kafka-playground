@@ -1,7 +1,6 @@
 package com.dinhhuy258.multi_threaded_producer
 
-import com.dinhhuy258.simple_producer.KafkaConfig
-import com.dinhhuy258.simple_producer.com.dinhhuy258.multi_threaded_producer.EventDispatcher
+import com.dinhhuy258.KafkaConfig
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.common.serialization.IntegerSerializer

@@ -1,6 +1,6 @@
-package com.dinhhuy258.simple_producer.com.dinhhuy258.simple_kafka_stream
+package com.dinhhuy258.simple_kafka_stream
 
-import com.dinhhuy258.simple_producer.KafkaConfig
+import com.dinhhuy258.KafkaConfig
 import org.apache.kafka.common.serialization.Serdes
 import org.apache.kafka.streams.KafkaStreams
 import org.apache.kafka.streams.StreamsBuilder
